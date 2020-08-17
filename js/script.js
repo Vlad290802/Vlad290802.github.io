@@ -139,3 +139,41 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 $('input[name=phone]').mask("+380 (99) 999-9999");
+
+
+	 // Tabs
+		
+//    let tabs = document.querySelectorAll('.brunch__tab'),
+//    tabsContent = document.querySelectorAll('.brunch__content'),
+//    tabsParent = document.querySelector('.brunch__tabs');
+
+//  function hideTabContent() {
+			 
+//        tabsContent.forEach(item => {
+//         item.style.display = 'none';
+//        });
+
+//        tabs.forEach(item => {
+//            item.classList.remove('brunch__tab_active');
+//        });
+//  }
+
+//  function showTabContent(i = 0) {
+//   tabsContent[i].style.display = 'block';
+//        tabs[i].classList.add('brunch__item_active');
+//    }
+	 
+//    hideTabContent();
+//    showTabContent();
+
+//  tabsParent.addEventListener('click', function(event) {
+//    const target = event.target;
+//    if(target && target.classList.contains('brunch__tab')) {
+//            tabs.forEach((item, i) => {
+//                if (target == item) {
+//                    hideTabContent();
+//                    showTabContent(i);
+//                }
+//            });
+//    }
+//    });
